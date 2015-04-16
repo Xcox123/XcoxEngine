@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{ae411b06-c17f-4da6-97ea-f9dcb1bd9aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Graphcics">
+      <UniqueIdentifier>{33d70c25-35c1-4b86-b398-3d6342f00369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Input">
+      <UniqueIdentifier>{32ad44dd-d567-4300-8442-bb9d1e4b9d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\maths">
+      <UniqueIdentifier>{9078e247-4455-4d62-8dc8-06ba120b18be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="window.cpp">
+      <Filter>src\Graphcics</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Debug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>src\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>src\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="vec4.cpp">
+      <Filter>src\maths</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window.h">
+      <Filter>src\Graphcics</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="maths.h">
+      <Filter>src\maths</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
